@@ -17,11 +17,13 @@
 } */
 
 nav {
-  display: flex;
   width: 80%;
+  display: flex;
+  z-index: 1;
   margin: 20px auto;
+  position: sticky;
   align-items: center;
-  font-weight: 500;
+  font-weight: 550;
 }
 
 .nav-links {
@@ -29,10 +31,22 @@ nav {
   text-align: right;
 }
 
-.nav-links li {
+.nav-links ul {
   list-style: none;
+}
+.nav-links ul li {
+  display: inline;
+  padding: 0 2rem;
 }
 
 .logo-area {
+  flex-basis: 20%;
   display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 20%;
+  height: 20%;
+  margin-right: 12px;
 }
