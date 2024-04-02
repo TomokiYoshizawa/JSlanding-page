@@ -88,11 +88,52 @@ nav {
 
 .feature {
   position: absolute;
-
   color: white;
+  display: flex;
+}
+
+.feature img {
+  width: 70px;
+}
+
+.feature div {
+  margin-left: 20px;
+}
+
+.feature div a {
+  margin-top: 8px;
 }
 
 .one {
   top: 450px;
   right: 70px;
+}
+
+.two {
+  top: 150px;
+  left: 340px;
+}
+
+.three {
+  bottom: 450px;
+  left: 50px;
+}
+
+.four {
+  bottom: 150px;
+  right: 370px;
+}
+
+.pc {
+  width: 400px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 37%;
+}
+
+.control {
+  position: absolute;
+  top: 50%;
+  right: 15%;
 }
